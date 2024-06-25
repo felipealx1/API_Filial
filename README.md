@@ -1,4 +1,4 @@
-# API Filial - Gerenciamento de Cadastros
+# API Filial - Gerenciamento de Cadastros.
 <h2>Desenvolvimento de uma API para Gerenciamento de Filiais, Departamentos e Funcionários</h2>
 <p>Este projeto é um sistema que permite o gerenciamento eficiente de Filiais, Departamentos e Funcionários através de uma API robusta, facilitando as operações de cadastro e controle.</p>
 <h3>🖥️ Entidades e Relacionamentos</h3>
