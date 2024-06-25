@@ -1,5 +1,25 @@
-# API_Filial
-A API Filial conta com três entidades: Filial, Departamento e Funcionário. A API Filial gerencia um sitema de cadastro e controle de Filiais, Departamentos e Funcionários.<br>
-Existe o relacionamento entre as entidade: Uma Filial pode ter muitos Funcionários e muitos Funcionários estão relacionados a uma Filial, e o relacinamento de um Departamento pode conter Muitos Funcionários assim como muitos Funcionários está em um Departamento.<br>
-Na API Filial a respeito do cadasto do funcionário, quando o Funcionário for cadastrado ele ficará registrado na Filial e no Departamento que irá trabalhar. No cadastro e na possível atualização dos dados de um funcionário utilizamos uma API Externa (BrasilAPI - CEP) para que quando for feito o cadastro ou atualização o Funcionário irá informar o CEP e a API Externa vai fornecer seu endereço completo onde ele reside. Um dos objetivo dessa API é permitir que operações CRUD - com o uso dos métodos HTTP (GET, POST, PUT e DELETE) sejam realizadas e consumir uma API Externa. A API estará conectada ao banco de dados MySQL.<br>
-Foi realizado a documentção da API com o OpenAPI - Swagger, facilitando a documentação da API e incluindo declarações claras e didáticas sobre o funcionamento da API e de suas riquisições. Para acessar o Swagger primeiro deve ser inicializado a aplicação e em seguida acessar o site http://localhost:8080/swagger-ui/index.html#/
+# API Filial - Gerenciamento de Cadastros
+<h1>API Filial - Gerenciamento de Cadastros</h1>
+<h2>Desenvolvimento de uma API para Gerenciamento de Filiais, Departamentos e Funcionários</h2>
+<p>Este projeto é um sistema que permite o gerenciamento eficiente de Filiais, Departamentos e Funcionários através de uma API robusta, facilitando as operações de cadastro e controle.</p>
+<h3>🖥️ Entidades e Relacionamentos</h3>
+<ul>
+  <li><b>Filial:</b> Pode ter muitos Funcionários.</li>
+  <li><b>Funcionário:</b> Registrado em uma Filial e Departamento específicos.</li>
+  <li><b>Departamento:</b> Pode conter muitos Funcionários.</li>
+</ul>
+<h3>👨🏾‍💻 Funcionalidades da API</h3>
+<ul>
+  <li>Realização de operações CRUD utilizando métodos HTTP (GET, POST, PUT, DELETE).</li>
+  <li>Consumo de uma API Externa (BrasilAPI - CEP) para cadastro e atualização de endereços de funcionários.</li>
+</ul>
+<h3>🔧 Tecnologias Utilizadas</h3>
+<ul>
+  <li><b>MySQL:</b> Banco de dados para armazenamento das informações.</li>
+  <li><b>Swagger/OpenAPI:</b> Usado para documentação e facilitação do uso da API.</li>
+</ul>
+<h3>⚙️ Instalação e Execução</h3>
+<b>Acesso ao Swagger:</b>
+<p>Após inicializar a aplicação, acesse a documentação interativa em <code>http://localhost:8080/swagger-ui/index.html#/</code></p>
+<p>Este sistema foi desenvolvido para oferecer uma solução integrada para o gerenciamento de recursos humanos e departamentais em empresas, promovendo eficiência e controle detalhado sobre as operações internas.</p>
+<p>#DesenvolvimentoWeb #API #GerenciamentoDeRecursosHumanos #Tecnologia #ProjetosEmpresariais</p>
